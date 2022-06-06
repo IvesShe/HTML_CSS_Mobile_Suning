@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.988" height="40.988" viewBox="0 0 40.988 40.988">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4aa2fe"/>
+            <stop offset="1" stop-color="#cde8fe"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fdfdfe"/>
+            <stop offset="1" stop-color="#e8ebfa"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <path id="Rectangle_78" d="M0 0H22V18.211H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_3166" transform="translate(-951.006 -980.006)">
+        <g id="Ellipse_107" fill="url(#linear-gradient-2)" stroke="rgba(255,255,255,0.5)" transform="rotate(-177 508.344 497.536)">
+            <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+            <circle cx="19.5" cy="19.5" r="19" fill="none"/>
+        </g>
+        <g id="Group_3165" transform="translate(961 992)">
+            <g id="Group_80" clip-path="url(#clip-path)">
+                <path id="Path_76" d="M43.62 58.636h12.2c.625 0 .747-.111.748-.668V47.5H42.893c-.009.118-.021.2-.021.28v10.27c0 .465.159.586.747.586m2.423-5.936a.843.843 0 0 1 .244-.3q1.445-1.264 2.9-2.519a.81.81 0 0 1 1.215-.008q1.478 1.264 2.933 2.549a.584.584 0 0 1 .079.932.808.808 0 0 1-1.107-.075 18.838 18.838 0 0 0-1.806-1.453v4.084a.692.692 0 0 1-.7.635.706.706 0 0 1-.692-.756c-.006-1.174 0-2.348 0-3.522v-.44l-.125-.046c-.582.514-1.16 1.03-1.746 1.54a.764.764 0 0 1-.92.113.555.555 0 0 1-.269-.739" class="cls-1" transform="translate(-38.719 -43.502)"/>
+                <path id="Path_77" d="M22 1.253c0-.919-.367-1.239-1.41-1.24L1.4 0a3.189 3.189 0 0 0-.38.017C.382.095.009.446.007 1Q0 3.39.006 5.778a1.067 1.067 0 0 0 1.172 1.043c.48.017.962 0 1.525 0v-3.09c0-.824.2-.992 1.168-.991q7.231.008 14.462.01c.7 0 .963.2.966.814v3.258c.531 0 .98.008 1.429 0C21.565 6.8 22 6.418 22 5.694V1.253" class="cls-1"/>
+                <path id="Path_78" d="M42.824 194.131v1.126c0 .635.126.741.873.741h11.9a1.363 1.363 0 0 0 .52-.042c.162-.074.375-.226.388-.357.046-.479.018-.964.018-1.464z" class="cls-1" transform="translate(-38.676 -177.787)"/>
+            </g>
+        </g>
+    </g>
+</svg>

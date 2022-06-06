@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>MAX AUTO</title>
+  <meta name="keywords" content="MAX AUTO" />
+  <meta name="description" content="MAX AUTO" />
+  <link rel="shortcut icon" href="#" />
+  <style>
+    html,
+    body,
+    div,
+    span,
+    h1,
+    p,
+    a,
+    img {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-weight: inherit;
+      font-family: inherit;
+      vertical-align: baseline;
+    }
+
+    body {
+      line-height: 1;
+      color: black;
+      background: white;
+    }
+
+    html,
+    body {
+      width: 100%;
+    }
+
+    body {
+      overflow: hidden;
+      height: 100%;
+    }
+
+    .maintain-container {
+      background: #EAF7F8;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .maintain-container .maintain-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .maintain-content__box_top_circle {
+      position: fixed;
+      width: 328px;
+      height: 264px;
+    }
+
+    .maintain-content__box_logo {
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      margin-top: 80px;
+      z-index: 1;
+    }
+
+    .maintain-content__logo {
+      width: 204px;
+      height: 56px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .maintain-content__title {
+      font-size: 48px;
+      font-weight: 600;
+      margin: 176px auto 0px;
+
+      background: linear-gradient(0deg, #0071BC, #00B6A9);
+      background: -webkit-linear-gradient(0deg, #0071BC, #00B6A9);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      z-index: 1;
+    }
+
+    .maintain-content__content {
+      width: 100%;
+      text-align: center;
+      margin-top: 24px;
+      color: #656772;
+      z-index: 1;
+    }
+
+    .maintain-content__content p span:nth-child(1) {
+      font-size: 16px;
+      font-weight: 500;
+      margin-right: 4px;
+    }
+
+    .maintain-content__content p span:nth-child(2) {
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 4px;
+    }
+
+    .maintain-content__content p span:nth-child(3) {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .maintain-content__content p:nth-child(2) {
+      font-size: 28px;
+      font-weight: 600;
+      margin-top: 17px;
+    }
+
+    .maintain-container__btn {
+      width: 120px;
+      height: 40px;
+      cursor: pointer;
+      padding-left: 16px;
+      border-radius: 20px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      background-image: linear-gradient(132.09deg, #0071BC 2.12%, #00B6A9 93.89%);
+      border: none;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      z-index: 2;
+      box-sizing: border-box;
+      margin-top: 24px;
+    }
+
+    .maintain-container__btn span {
+      font-size: 14px;
+      margin-left: 8px;
+      font-weight: 400;
+    }
+
+    .maintain-content__box_robot {
+      position: fixed;
+      width: 240px;
+      height: 306px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 64px;
+    }
+
+    .maintain-content__robot {
+      max-height: 100%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      z-index: 1;
+    }
+
+    .maintain-container__footer {
+      text-align: center;
+      font-size: 12px;
+      position: fixed;
+      width: 100%;
+      height: 64px;
+      line-height: 64px;
+      left: 0px;
+      bottom: -50px;
+    }
+
+    .maintain-content__box_bottom_circle {
+      position: fixed;
+      bottom: 170px;
+    }
+
+    .maintain-content__box_bottom_circle_mid {
+      position: fixed;
+      bottom: 80px;
+    }
+
+    .maintain-content__box_bottom_circle_bottom {
+      position: fixed;
+      bottom: -10px;
+    }
+
+    .maintain-content__box_bottom_rectangle {
+      position: fixed;
+      left: 50%;
+      opacity: 0.5;
+      transform: translateX(-50%);
+      bottom: -10px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="maintain-container">
+    <div class="maintain-content">
+      <div class="maintain-content__box_top_circle">
+        <img class="maintain-content__top_circle" src="./img/ma/circletop.svg" alt="MAX AUTO" />
+      </div>
+      <div class="maintain-content__box_logo">
+        <img class="maintain-content__logo" src="./img/ma/logo.svg" alt="MAX AUTO" />
+      </div>
+      <h1 class="maintain-content__title">อยู่ระหว่างอัพเกรด</h1>
+      <div class="maintain-content__content">
+        <p><span>จะเสร็จสิ้นในเวลา</span><span>3/21</span><span>11:00&nbsp;น.</span></p>
+      </div>
+
+      <div type="button" class="maintain-container__btn" onclick="window.open('')" target="_blank">
+        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M19.256 12.075V12.094C19.2559 12.2609 19.1912 12.4213 19.0754 12.5415C18.9596 12.6618 18.8018 12.7325 18.635 12.739H18.634C18.6076 12.7347 18.5817 12.7273 18.557 12.717L18.56 12.718C18.3073 12.3233 17.9608 11.9974 17.5514 11.7691C17.1421 11.5409 16.6826 11.4175 16.214 11.41H16.212C15.4076 11.4445 14.6497 11.7971 14.1052 12.3903C13.5606 12.9834 13.2739 13.7685 13.308 14.573V14.567V20.849C13.2749 21.6501 13.5609 22.4316 14.1033 23.0221C14.6456 23.6126 15.4 23.9639 16.201 23.999H16.352C16.546 23.999 16.731 23.955 16.896 23.878L16.888 23.881V23.887C17.054 23.812 17.22 23.732 17.382 23.646C17.9443 23.3313 18.4529 22.9293 18.889 22.455L18.893 22.451C19.6551 21.6018 20.1839 20.5696 20.428 19.455L20.436 19.411C20.447 19.363 20.463 19.309 20.473 19.261C20.866 17.384 21.091 15.226 21.091 13.017C21.091 12.325 21.069 11.639 21.025 10.958L21.03 11.051C20.9897 8.17716 19.9272 5.41161 18.033 3.25L18.045 3.264C18.045 3.258 18.039 3.258 18.034 3.253C17.6366 2.8194 17.2034 2.42 16.739 2.059L16.715 2.041C16.2561 1.68013 15.7639 1.36371 15.245 1.096L15.193 1.071C13.8387 0.361742 12.3318 -0.00624014 10.803 -0.000997616H10.787C9.24157 -0.00328191 7.71912 0.37338 6.35302 1.096L6.40502 1.071C5.82402 1.375 5.32602 1.697 4.86002 2.058L4.88302 2.041C4.39502 2.417 3.96302 2.814 3.56602 3.245L3.55902 3.252L3.54802 3.263C1.65062 5.40957 0.587399 8.16628 0.552019 11.031V11.039C0.376557 13.8582 0.575964 16.6882 1.14502 19.455L1.11002 19.249C1.12202 19.31 1.13502 19.361 1.15002 19.41L1.14702 19.399C1.38849 20.5319 1.92255 21.5817 2.69602 22.444L2.69102 22.438C3.12202 22.907 3.62002 23.304 4.17202 23.617L4.20202 23.633C4.33802 23.713 4.50002 23.794 4.66802 23.864L4.69602 23.874V23.868C4.85302 23.942 5.03702 23.985 5.23102 23.986H5.37602C6.17852 23.9502 6.93413 23.5978 7.47745 23.0062C8.02078 22.4145 8.30756 21.6316 8.27502 20.829V20.835V14.564C8.30783 13.7616 8.02124 12.9788 7.47805 12.3873C6.93486 11.7957 6.17934 11.4436 5.37702 11.408H5.37102C4.90501 11.4147 4.44791 11.5367 4.04048 11.763C3.63306 11.9893 3.28798 12.3129 3.03602 12.705L3.02902 12.716C3.00202 12.716 2.97502 12.737 2.94902 12.737C2.78206 12.7308 2.62399 12.6601 2.50801 12.5399C2.39203 12.4196 2.32716 12.2591 2.32702 12.092V12.072V12.073C2.32702 12.057 2.34302 12.046 2.34302 12.036C2.35402 11.747 2.37002 11.452 2.38602 11.162C2.43102 10.285 2.55502 9.461 2.75302 8.667L2.73402 8.756C3.03243 7.44154 3.61621 6.20877 4.44402 5.145L4.42902 5.166C4.71573 4.79558 5.03464 4.45124 5.38202 4.137C5.46702 4.057 5.55402 3.987 5.63902 3.912C6.20355 3.43047 6.83014 3.02687 7.50202 2.712L7.55302 2.691C8.57102 2.21995 9.67931 1.97598 10.801 1.976H10.803C11.983 1.976 13.102 2.239 14.104 2.709L14.056 2.689C14.7509 3.00943 15.3986 3.42362 15.981 3.92L15.97 3.91C16.055 3.985 16.142 4.06 16.222 4.135C16.5691 4.44956 16.888 4.79387 17.175 5.164C17.9819 6.20555 18.5537 7.40947 18.851 8.693L18.863 8.755C19.044 9.461 19.17 10.284 19.215 11.129L19.216 11.161V11.225C19.216 11.51 19.234 11.792 19.268 12.068L19.265 12.035C19.254 12.041 19.254 12.051 19.254 12.072L19.256 12.075Z"
+            fill="white" />
+        </svg>
+        <span class="qa-online">ฝ่ายบริการลูกค้า</span>
+      </div>
+    </div>
+    <div class="maintain-content__box_bottom_circle">
+      <img class="maintain-content__bottom_circle" src="./img/ma/circlebottom.png" alt="MAX AUTO" />
+    </div>
+    <div class="maintain-content__box_bottom_circle_mid">
+      <img class="maintain-content__bottom_circle" src="./img/ma/circlebottom.png" alt="MAX AUTO" />
+    </div>
+    <div class="maintain-content__box_bottom_circle_bottom">
+      <img class="maintain-content__bottom_circle" src="./img/ma/circlebottom.png" alt="MAX AUTO" />
+    </div>
+    <div class="maintain-content__box_bottom_rectangle">
+      <img class="maintain-content__bottom_rectangle" src="./img/ma/rectangle.svg" alt="MAX AUTO" />
+    </div>
+    <div class="maintain-content__box_robot">
+      <img class="maintain-content__robot" src="./img/ma/robot.svg" alt="MAX AUTO" />
+      <div class="maintain-container__footer">
+        Copyright © Welcome MAX AUTO.COM
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

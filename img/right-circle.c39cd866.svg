@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="298.316" height="301.391" viewBox="0 0 298.316 301.391">
+    <defs>
+        <linearGradient id="linear-gradient" x1="1" x2=".202" y2=".812" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#6acbff" stop-opacity=".6"/>
+            <stop offset="1" stop-color="#6acbff" stop-opacity="0"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_2830" opacity="0.364">
+        <ellipse id="Ellipse_278" cx="109.586" cy="110.715" class="cls-2" rx="109.586" ry="110.715" transform="translate(39.573 39.98)"/>
+        <ellipse id="Ellipse_277" cx="60.881" cy="61.508" class="cls-2" rx="60.881" ry="61.508" transform="translate(88.277 89.187)"/>
+        <ellipse id="Ellipse_279" cx="149.158" cy="150.696" class="cls-2" rx="149.158" ry="150.696"/>
+    </g>
+</svg>

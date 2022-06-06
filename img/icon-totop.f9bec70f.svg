@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44">
+    <defs>
+        <linearGradient id="b" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#d2eafe"/>
+            <stop offset="1" stop-color="#47a1fe"/>
+        </linearGradient>
+        <filter id="a" x="0" y="0" width="44" height="44" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur stdDeviation="2" result="blur"/>
+            <feFlood flood-opacity=".239"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="[Button] Tutorials-Top">
+        <g style="filter:url(#a)">
+            <circle data-name="Ellipse 432" cx="16" cy="16" r="16" transform="translate(6 4)" style="fill:url(#b)"/>
+        </g>
+        <path data-name="Icon metro-vertical-align-top" d="M12.712 16.632h3.75v7.795h2.5v-7.795h3.75l-5-5.1-5 5.1zm-5-10.206v2.552h20V6.427z" transform="translate(4.288 5.573)" style="fill:#fff"/>
+    </g>
+</svg>

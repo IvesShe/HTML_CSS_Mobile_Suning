@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>易乐博</title>
+  <meta name=keywords content="易乐博">
+  <meta name=description content="易乐博">
+  <link rel="shortcut icon" href="#" />
+  <style>
+    body {
+      background-color: #3b404d;
+      font-family: 'microsoft jhenghei';
+      margin: 0px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .content-wrap {
+      width: 100%;
+      background-image: url(./img/ylb/maintain-bg.png);
+      background-size: 100%;
+      height: calc(100vh - 140px);
+      background-position: bottom;
+      background-color: white;
+      background-repeat: no-repeat;
+    }
+
+    .logo {
+      width: 161px;
+      text-align: center;
+      margin: 40px auto 0 auto;
+      padding-bottom: 26px;
+      border-bottom: 0;
+    }
+
+    .logo>img {
+      width: 100%;
+    }
+
+    .footer {
+      font-size: 12px;
+      color: #707070;
+      padding-top: 15px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+
+    .tip {
+      position: absolute;
+      color: #838da2;
+      top: calc(42% + 2rem);
+      font-family: NotoSansCJKjp;
+      line-height: 40px;
+      width: 100vw;
+      text-align: center;
+    }
+
+    .real-title {
+      margin-bottom: 90px;
+      margin-top: -125px;
+      color: #3b404d;
+      font-size: 48px;
+    }
+
+    @media (max-height: 800px) {
+      .real-title {
+        margin-top: -260px;
+      }
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 1.6px;
+    }
+
+    .date {
+      font-family: Arial;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 3.2px;
+      line-height: 37px;
+    }
+
+    .time {
+      font-family: Arial;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 4px;
+      margin-top: 8px;
+    }
+
+    .done {
+      line-height: 29px;
+      letter-spacing: 4px;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .qa-tip {
+      position: relative;
+      justify-content: center;
+      display: flex;
+    }
+
+    .qa-text {
+      color: white;
+      bottom: 20px;
+      position: absolute;
+      text-align: center;
+      width: 248px;
+      font-size: 13px;
+      line-height: 1.46;
+      letter-spacing: 1.3px;
+    }
+
+    .qa {
+      position: absolute;
+      color: white;
+      bottom: 6.6rem;
+      font-family: NotoSansCJKjp;
+      font-size: 14px;
+      line-height: 1.46;
+      letter-spacing: 1.3px;
+      font-weight: 500;
+      border-radius: 5px;
+      border: 0px;
+      white-space: nowrap;
+      cursor: pointer;
+      box-sizing: border-box;
+      height: 30px;
+      background-image: url(./img//ylb/maintain-btn.png);
+      background-color: transparent;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+
+    .qa-online {
+      margin-left: 2px;
+    }
+
+    @media screen and (max-height: 768px) {
+      .tip {
+        top: calc(51% + 2rem);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="img/ylb/ylb-logo.svg">
+  </div>
+  <div class="content-wrap">
+    <div class="tip">
+      <p class="real-title">升级维护中</p>
+      <p>
+        <span class="title">預計</span>
+        <span class="date">3/21</span>
+        <span class="time">12:00</span>
+      </p>
+      <p class="done">升級維護完成</p>
+    </div>
+  </div>
+  <div class="qa-tip">
+    <button type="button" class="qa" onclick="window.open('https://direct.lc.chat/11863392/1', '_self')">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 32" style="width: 20px; height: 19px;">
+        <path
+          d="M13 0A13 13 0 000 13v10.111a4.328 4.328 0 004.333 4.333h4.333V15.889H2.889V13a10.111 10.111 0 1120.222 0v2.889h-5.778v11.555h5.778v1.444H13v2.889h8.667A4.328 4.328 0 0026 27.444V13A13 13 0 0013 0z"
+          fill="#fff" />
+      </svg>
+      <span class="qa-online">在线客服</span>
+    </button>
+  </div>
+  <div class="footer">Copyright © 欢迎光临 易乐博</div>
+</body>
+
+</html>
